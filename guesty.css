@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /* Base Styles */\
+.searchWrapper-0-2-341 \{\
+    display: flex;\
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, \
+                rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, \
+                rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;\
+    border-radius: 10px;\
+\}\
+\
+.root-0-2-351 \{\
+    border: 1px solid #D4D8E1;\
+    display: flex;\
+    padding: 20px;\
+    background: #fff;\
+    align-items: center;\
+    border-radius: 20px;\
+    flex-direction: row;\
+    justify-content: center;\
+\}\
+\
+.button, .searchWrapper-0-2-341 button, .root-0-2-351 button \{\
+    background-color: #000; /* Black background for buttons */\
+    color: #fff; /* White text color */\
+    border: none; /* No border */\
+    padding: 10px 20px; /* Padding inside the button */\
+    border-radius: 5px; /* Rounded corners */\
+    cursor: pointer; /* Pointer cursor on hover */\
+\}\
+\
+/* General Element and Pseudo-element Styles */\
+*, *:before, *:after \{\
+    box-sizing: border-box;\
+\}\
+\
+body \{\
+    margin: 0;\
+    font-size: 0.75rem;\
+    font-weight: 400;\
+    line-height: 1.67;\
+    color: #242428;\
+    text-align: left;\
+    background-color: #d1d8db;\
+    font-family: Nunito, sans-serif;\
+\}\
+\
+::placeholder \{\
+    font-size: 14px;\
+    letter-spacing: 0.2px;\
+\}\
+\
+/* Media Queries */\
+@media (min-width: 0px) \{\
+    .searchWrapper-0-2-341 \{\
+        bottom: -40px;\
+        position: relative;\
+        margin-top: 40px;\
+        margin-bottom: 230px;\
+    \}\
+\}\
+\
+@media (min-width: 992px) \{\
+    .searchWrapper-0-2-341 \{\
+        height: 86px;\
+    \}\
+\}\
+\
+@media (min-width: 1200px) \{\
+    .searchWrapper-0-2-341 \{\
+        height: 86px;\
+    \}\
+\}\
+}
